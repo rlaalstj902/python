@@ -20,8 +20,6 @@ class HouseKim(HousePark):
     def travel(self, where, day):
         print("%s, %s여행 %d일 가네." % (self.fullname, where, day))
 
-
-# 인스턴스를 생성하고 메서드를 호출합니다.
 pey = HousePark("응용")
 juliet = HouseKim("줄리엣")
 pey.love(juliet)
